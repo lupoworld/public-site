@@ -1,4 +1,4 @@
-const indexCardList = document.querySelectorAll(".gallery_card");
+let indexCardList = document.querySelectorAll(".gallery_card");
 console.log(indexCardList);
 
 /*const cardList = document.querySelectorAll(".gallery_card");
