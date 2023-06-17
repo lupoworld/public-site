@@ -15,21 +15,23 @@
   }
 });
 */
-const cards = document.querySelectorAll('.gallery_card');
+$(function () {
+
 cardHover(); //intially call hover function
 
 function cardHover() {
-  document.getElementById('cards').style.transform = 'scale(1,1)';
-  document.getElementById('cards').onmouseout = function(){
-    document.getElementById('cards').style.transform = 'scale(1,1)';
+  document.getElementById('gallery_card').style.transform = 'scale(1,1)';
+  document.getElementById('gallery_card').onmouseout = function(){
+    document.getElementById('gallery_card').style.transform = 'scale(1,1)';
   };
 
-  document.getElementById('cards').onmouseenter = function(){
+  document.getElementById('gallery_card').onmouseenter = function(){
 
-    document.getElementById('cards').style.transform = 'scale(2,2)';
+    document.getElementById('gallery_card').style.transform = 'scale(2,2)';
   };
 
-}
+  };
+};
 
 
 $(".bubble").hover(function() {
