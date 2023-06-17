@@ -15,18 +15,18 @@
   }
 });
 */
-
+const cards = document.querySelectorAll('.gallery_card');
 cardHover(); //intially call hover function
 
 function cardHover() {
-  document.getElementById('button').style.transform = 'scale(1,1)';
-  document.getElementById('button').onmouseout = function(){
-    document.getElementById('button').style.transform = 'scale(1,1)';
+  document.getElementById('cards').style.transform = 'scale(1,1)';
+  document.getElementById('cards').onmouseout = function(){
+    document.getElementById('cards').style.transform = 'scale(1,1)';
   };
 
-  document.getElementById('button').onmouseenter = function(){
+  document.getElementById('cards').onmouseenter = function(){
 
-    document.getElementById('button').style.transform = 'scale(2,2)';
+    document.getElementById('cards').style.transform = 'scale(2,2)';
   };
 
 }
