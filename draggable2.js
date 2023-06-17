@@ -1,5 +1,5 @@
 const indexCardList = document.querySelectorAll(".gallery_card");
-console.log(cardList);
+console.log(indexCardList);
 
 /*const cardList = document.querySelectorAll(".gallery_card");
 for (let i = 0; i < cardList.length; i++) {
