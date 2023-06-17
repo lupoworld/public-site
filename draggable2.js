@@ -20,14 +20,14 @@ cardHover(); //intially call hover function
 
 
 function cardHover() {
-  document.getElementById('gallery_card').style.transform = 'scale(1,1)';
-  document.getElementById('gallery_card').onmouseout = function(){
-    document.getElementById('gallery_card').style.transform = 'scale(1,1)';
+  document.getElementsByClassName('gallery_card').style.transform = 'scale(1,1)';
+  document.getElementsByClassName('gallery_card').onmouseout = function(){
+    document.getElementsByClassName('gallery_card').style.transform = 'scale(1,1)';
   } 
 
-  document.getElementById('gallery_card').onmouseenter = function(){
+  document.getElementsByClassName('gallery_card').onmouseenter = function(){
 
-    document.getElementById('gallery_card').style.transform = 'scale(2,2)';
+    document.getElementsByClassName('gallery_card').style.transform = 'scale(2,2)';
   }
 
 }
