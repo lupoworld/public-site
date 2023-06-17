@@ -1,4 +1,4 @@
-let cardList = document.querySelectorAll("gallery_card");
+/*let cardList = document.querySelectorAll(".gallery_card");
 console.log(cardList);
 for (let i = 0; i < cardList.length; i++) {
   cardList[i].style.transform = "scale(1,1)";
@@ -11,7 +11,17 @@ for (let i = 0; i < cardList.length; i++) {
   };
 
 
-}
+}*/
+
+$(".gallery_card").hover(function() {
+  document.getElementsByClassName("gallery_card")[0].style.transform += "scale(1.1)";
+}, function() {
+  if (document.getElementsByClassName("gallery_card")[0].style.transform[0] != "s") {
+    document.getElementsByClassName("gallery_card")[0].style.transform = document.getElementsByClassName("bubble")[0].style.transform.split(")")[0];
+  } else {
+    document.getElementsByClassName("gallery_card")[0].style.transform = "";
+  }
+});
 
 $(".bubble").hover(function() {
   document.getElementsByClassName("bubble")[0].style.transform += "scale(1.1)";
