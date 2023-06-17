@@ -1,5 +1,5 @@
-let indexCardList = document.querySelectorAll(".gallery_card");
-console.log(indexCardList);
+let cardList = document.querySelectorAll(".bean");
+console.log(cardList);
 
 /*const cardList = document.querySelectorAll(".gallery_card");
 for (let i = 0; i < cardList.length; i++) {
