@@ -1,3 +1,5 @@
+$(function(){
+  if($('div').is('.Index')){
 let cardList = document.querySelectorAll(".image-gallery");
 console.log(cardList);
 for (let i = 0; i < cardList.length; i++) {
@@ -12,6 +14,7 @@ for (let i = 0; i < cardList.length; i++) {
 
 
 }
+});
 /*
 $(".image-link").hover(function() {
   document.getElementsByClassName("image-link")[0].style.transform += "scale(1.1)";
