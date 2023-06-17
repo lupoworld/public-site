@@ -15,20 +15,19 @@
   }
 });
 */
+
 cardHover(); //intially call hover function
 
-
-
 function cardHover() {
-  document.getElementsByClassName('gallery_card has_caption').style.transform = 'scale(1,1)';
-  document.getElementsByClassName('gallery_card has_caption').onmouseout = function(){
-    document.getElementsByClassName('gallery_card has_caption').style.transform = 'scale(1,1)';
-  } 
+  document.getElementById('button').style.transform = 'scale(1,1)';
+  document.getElementById('button').onmouseout = function(){
+    document.getElementById('button').style.transform = 'scale(1,1)';
+  };
 
-  document.getElementsByClassName('gallery_card has_caption').onmouseenter = function(){
+  document.getElementById('button').onmouseenter = function(){
 
-    document.getElementsByClassName('gallery_card has_caption').style.transform = 'scale(2,2)';
-  }
+    document.getElementById('button').style.transform = 'scale(2,2)';
+  };
 
 }
 
