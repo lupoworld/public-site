@@ -20,7 +20,7 @@ $(function () {
 cardHover(); //intially call hover function
 
 function cardHover() {
-  document.getElementsByClassName("gllery_card has_caption")[0].style.transform = "scale(1,1)";
+  document.getElementsByClassName("gallery_card has_caption")[0].style.transform = "scale(1,1)";
   document.getElementsByClassName("gallery_card has_caption")[0].onmouseout = function(){
     document.getElementsByClassName("gallery_card has_caption")[0].style.transform = "scale(1,1)";
   };
