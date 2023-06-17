@@ -1,11 +1,11 @@
-const element = document.getElementsByClassName(".image-gallery");
+/*const element = document.getElementsByClassName(".image-gallery");
 if(element.hasChildNodes()) {
 element.childNodes.forEach((e, i)=>{
     console.log(e);
 });
-}
+}*/
 
-/*let cardList = document.querySelectorAll("#bean");
+let cardList = document.querySelectorAll("#bean");
 console.log(cardList);
 for (let i = 0; i < cardList.length; i++) {
   cardList[i].style.transform = "scale(1,1)";
@@ -18,7 +18,7 @@ for (let i = 0; i < cardList.length; i++) {
   };
 
 
-}*/
+}
 /*
 $(".image-link").hover(function() {
   document.getElementsByClassName("image-link")[0].style.transform += "scale(1.1)";
