@@ -33,15 +33,15 @@ function cardHover() {
   };
 });
 */
-const nodeList = document.querySelectorAll(".gallery_card");
-for (let i = 0; i < nodeList.length; i++) {
-  nodeList[i].style.transform = "scale(1,1)";
-  nodeList[i].onmouseout = function(){
-        nodeList[i].style.transform = "scale(1,1)";
+const cardList = document.querySelectorAll(".gallery_card");
+for (let i = 0; i < cardList.length; i++) {
+  cardList[i].style.transform = "scale(1,1)";
+  cardList[i].onmouseout = function(){
+        cardList[i].style.transform = "scale(1,1)";
   };
-    nodeList[i].onmouseenter = function(){
+    cardList[i].onmouseenter = function(){
 
-    nodeList[i].style.transform = "scale(2,2)";
+    cardList[i].style.transform = "scale(2,2)";
   };
 
 
