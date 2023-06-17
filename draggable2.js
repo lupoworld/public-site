@@ -1,4 +1,4 @@
-let cardList = document.querySelectorAll(".bean");
+let cardList = document.querySelectorAll(".gallery_card");
 console.log(cardList);
 
 /*const cardList = document.querySelectorAll(".gallery_card");
