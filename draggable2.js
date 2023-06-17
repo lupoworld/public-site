@@ -1,5 +1,5 @@
 const element = document.getElementsByClassName(".image-gallery");
-if(element.hasChildNodes()){
+if(element.hasChildNodes()) {
 element.childNodes.forEach((e, i)=>{
     console.log(e);
 });
