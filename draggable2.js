@@ -1,3 +1,27 @@
+const cardList = document.querySelectorAll(".gallery_card");
+for (let i = 0; i < cardList.length; i++) {
+  cardList[i].style.transform = "scale(1,1)";
+  cardList[i].onmouseout = function(){
+        cardList[i].style.transform = "scale(1,1)";
+  };
+    cardList[i].onmouseenter = function(){
+
+    cardList[i].style.transform = "scale(2,2)";
+  };
+
+
+}
+
+$(".bubble").hover(function() {
+  document.getElementsByClassName("bubble")[0].style.transform += "scale(1.1)";
+}, function() {
+  if (document.getElementsByClassName("bubble")[0].style.transform[0] != "s") {
+    document.getElementsByClassName("bubble")[0].style.transform = document.getElementsByClassName("bubble")[0].style.transform.split(")")[0];
+  } else {
+    document.getElementsByClassName("bubble")[0].style.transform = "";
+  }
+});
+
 /*$(function(){
   if($('div').is('.Index')){
     //add dynamic script tag  using createElement()
@@ -33,26 +57,3 @@ function cardHover() {
   };
 });
 */
-const cardList = document.querySelectorAll(".gallery_card");
-for (let i = 0; i < cardList.length; i++) {
-  cardList[i].style.transform = "scale(1,1)";
-  cardList[i].onmouseout = function(){
-        cardList[i].style.transform = "scale(1,1)";
-  };
-    cardList[i].onmouseenter = function(){
-
-    cardList[i].style.transform = "scale(2,2)";
-  };
-
-
-}
-
-$(".bubble").hover(function() {
-  document.getElementsByClassName("bubble")[0].style.transform += "scale(1.1)";
-}, function() {
-  if (document.getElementsByClassName("bubble")[0].style.transform[0] != "s") {
-    document.getElementsByClassName("bubble")[0].style.transform = document.getElementsByClassName("bubble")[0].style.transform.split(")")[0];
-  } else {
-    document.getElementsByClassName("bubble")[0].style.transform = "";
-  }
-});
