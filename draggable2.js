@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
   if($('div').is('.Index')){
     //add dynamic script tag  using createElement()
     OR
@@ -14,6 +14,7 @@ $(function(){
 });
   }
 });
+*/
 
 $(".bubble").hover(function() {
   document.getElementsByClassName("bubble")[0].style.transform += "scale(1.1)";
