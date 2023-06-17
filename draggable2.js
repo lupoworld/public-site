@@ -20,14 +20,14 @@ $(function () {
 cardHover(); //intially call hover function
 
 function cardHover() {
-  document.getElementById('gallery_card').style.transform = 'scale(1,1)';
-  document.getElementById('gallery_card').onmouseout = function(){
-    document.getElementById('gallery_card').style.transform = 'scale(1,1)';
+  document.getElementById('gallery_card has_caption').style.transform = 'scale(1,1)';
+  document.getElementById('gallery_card has_caption').onmouseout = function(){
+    document.getElementById('gallery_card has_caption').style.transform = 'scale(1,1)';
   };
 
-  document.getElementById('gallery_card').onmouseenter = function(){
+  document.getElementById('gallery_card has_caption').onmouseenter = function(){
 
-    document.getElementById('gallery_card').style.transform = 'scale(2,2)';
+    document.getElementById('gallery_card has_caption').style.transform = 'scale(2,2)';
   };
 
   };
