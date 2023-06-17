@@ -1,4 +1,4 @@
-let cardList = document.querySelectorAll(".gallery_card_image");
+let cardList = document.querySelectorAll("#bean");
 console.log(cardList);
 for (let i = 0; i < cardList.length; i++) {
   cardList[i].style.transform = "scale(1,1)";
