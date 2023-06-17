@@ -17,7 +17,7 @@ $(".image-link").hover(function() {
   document.getElementsByClassName("image-link")[0].style.transform += "scale(1.1)";
 }, function() {
   if (document.getElementsByClassName("image-link")[0].style.transform[0] != "s") {
-    document.getElementsByClassName("image-link")[0].style.transform = document.getElementsByClassName("bubble")[0].style.transform.split(")")[0];
+    document.getElementsByClassName("image-link")[0].style.transform = document.getElementsByClassName("image-link")[0].style.transform.split(")")[0];
   } else {
     document.getElementsByClassName("image-link")[0].style.transform = "";
   }
