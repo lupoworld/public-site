@@ -5,6 +5,10 @@ element.childNodes.forEach((e, i)=>{
 });
 }*/
 
+
+
+
+/*
 let cardList = document.querySelectorAll(".gallery_card_image");
 console.log(cardList);
 for (let i = 0; i < cardList.length; i++) {
@@ -18,7 +22,11 @@ for (let i = 0; i < cardList.length; i++) {
   };
 
 
-}
+
+}*/
+
+
+
 /*
 $(".image-link").hover(function() {
   document.getElementsByClassName("image-link")[0].style.transform += "scale(1.1)";
@@ -30,6 +38,10 @@ $(".image-link").hover(function() {
   }
 });*/
 
+
+
+
+/*
 $(".bubble").hover(function() {
   document.getElementsByClassName("bubble")[0].style.transform += "scale(1.1)";
 }, function() {
@@ -38,7 +50,12 @@ $(".bubble").hover(function() {
   } else {
     document.getElementsByClassName("bubble")[0].style.transform = "";
   }
-});
+});*/
+
+
+
+
+
 
 /*$(function(){
   if($('div').is('.Index')){
@@ -57,6 +74,10 @@ $(".bubble").hover(function() {
   }
 });
 */
+
+
+
+
 /*$(function () {
 
 cardHover(); //intially call hover function
